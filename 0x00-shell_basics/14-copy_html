@@ -1,3 +1,2 @@
 #!/bin/bash
-cd ..
-rsync -av --update --ignore-existing *.html $(basename $(pwd))
+cp -un *.html ../
